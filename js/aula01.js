@@ -1,0 +1,1 @@
+alert('Esse é o primeiro site desenvolvido pelos alunos, Michael Richard e Leonardo Aguiar.');

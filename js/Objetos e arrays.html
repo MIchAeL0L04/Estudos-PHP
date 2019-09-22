@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Arrays e Objetos</title>
+	<meta charset ="utf-8"/>
+</head>
+<body>
+	<script>
+		var pessoa = {
+		nome:"Michael",
+		idade:"17",								//Criando função dentro de variavel....
+		logradouro:"SP",
+		andar: function(){
+			alert("Caminhando");
+			}
+		};
+
+		var fruta = ["pêssego", "pera"]
+		fruta.push("Maça");                		//Colocar item no array....
+		fruta.pop();							//Retirar úlimo item do array....
+		fruta.push("Caqui");
+
+		console.log(fruta.join(" -&- "));
+		console.log(fruta.length);
+
+
+
+	</script>
+
+</body>
+</html>
